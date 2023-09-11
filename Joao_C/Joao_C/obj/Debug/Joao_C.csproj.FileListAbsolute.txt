@@ -1,0 +1,7 @@
+C:\Users\edilson.csilva10\source\repos\Atividade\Melhoria\Melhoria\Joao_C\Joao_C\bin\Debug\Joao_C.exe.config
+C:\Users\edilson.csilva10\source\repos\Atividade\Melhoria\Melhoria\Joao_C\Joao_C\bin\Debug\Joao_C.exe
+C:\Users\edilson.csilva10\source\repos\Atividade\Melhoria\Melhoria\Joao_C\Joao_C\bin\Debug\Joao_C.pdb
+C:\Users\edilson.csilva10\source\repos\Atividade\Melhoria\Melhoria\Joao_C\Joao_C\obj\Debug\Joao_C.csproj.AssemblyReference.cache
+C:\Users\edilson.csilva10\source\repos\Atividade\Melhoria\Melhoria\Joao_C\Joao_C\obj\Debug\Joao_C.csproj.CoreCompileInputs.cache
+C:\Users\edilson.csilva10\source\repos\Atividade\Melhoria\Melhoria\Joao_C\Joao_C\obj\Debug\Joao_C.exe
+C:\Users\edilson.csilva10\source\repos\Atividade\Melhoria\Melhoria\Joao_C\Joao_C\obj\Debug\Joao_C.pdb
