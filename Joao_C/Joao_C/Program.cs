@@ -185,21 +185,19 @@ namespace Loja
 
                 if (formaPagamento == 3) // Cartão de Crédito
                 {
-                    Console.WriteLine("\n Total a pagar: R$: " + valorTotal.ToString("F2") + " Reais.");
+                    Console.WriteLine("\n Total a pagar: R$: " + valorTotal.ToString("F2") + " Reais."); // Mova essa linha para cá
 
                     Console.Write("\n Quantidade de parcelas (1 a 12): ");
                     int numeroParcelas = int.Parse(Console.ReadLine());
-                    
 
                     Venda novaVenda = new Venda
                     {
-
                         Produto = produto.Nome,
                         ValorTotal = valorTotal,
                         FormaPagamento = (FormaPagamento)formaPagamento,
                         NumeroParcelas = numeroParcelas
-
                     };
+
                     Console.WriteLine("\n Venda concluída com sucesso!");
                     vendas.Add(novaVenda); // Adiciona a venda à lista de vendas
                 }
@@ -270,8 +268,11 @@ namespace Loja
             Console.Write("\n Escolha a forma de pagamento (1 - Dinheiro: , 2 - Cartão de Débito: , 3 - Cartão de Crédito: , 4 - PIX: ): ");
             int formaPagamento = int.Parse(Console.ReadLine());
 
+            Console.WriteLine("\n Total a pagar: R$: " + (preco * quantidade).ToString("F2") + " Reais."); // Mova essa linha para cá
+
             if (formaPagamento == 3) // Se a forma de pagamento for Cartão de Crédito, pergunte o número de parcelas
             {
+
                 Console.Write("\n Quantidade de parcelas (1 a 12): ");
                 int numeroParcelas = int.Parse(Console.ReadLine());
 
@@ -302,6 +303,7 @@ namespace Loja
 
             Console.WriteLine("\n Compra realizada com sucesso!");
         }
+
         static void GerarRelatorio()
         {
             Console.Clear();
