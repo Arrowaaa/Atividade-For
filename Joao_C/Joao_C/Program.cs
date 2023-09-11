@@ -155,6 +155,7 @@ namespace Loja
             //O método .Add é um método que pertence à lista (ou coleção) e é usado para inserir um elemento nela.
             //gerenciam inventários, catálogos ou qualquer situação em que você precise manter uma coleção de objetos para posterior acesso e manipulação.
 
+            Console.WriteLine("\n Total a pagar: R$: " + (preco * quantidade).ToString("F2") + " Reais.");
             Console.WriteLine("\n Produto cadastrado com sucesso!");
 
         }
@@ -185,7 +186,7 @@ namespace Loja
 
                 if (formaPagamento == 3) // Cartão de Crédito
                 {
-                    Console.WriteLine("\n Total a pagar: R$: " + valorTotal.ToString("F2") + " Reais."); // Mova essa linha para cá
+                    Console.WriteLine("\n Total a pagar: R$: " + valorTotal.ToString("F2") + " Reais."); 
 
                     Console.Write("\n Quantidade de parcelas (1 a 12): ");
                     int numeroParcelas = int.Parse(Console.ReadLine());
@@ -323,7 +324,7 @@ namespace Loja
             //Ela indica que você deseja executar um bloco de código para cada elemento em uma coleção 
             //(neste caso, a coleção é representada por vendas).
             {
-                Console.WriteLine("Produto: " + venda.Produto + ", Valor: " + venda.ValorTotal.ToString("F2") + " Reais, Forma de Pagamento: " + venda.FormaPagamento + ", Parcelas: " + venda.NumeroParcelas);
+                Console.WriteLine("\n Produto: " + venda.Produto + ", Valor: " + venda.ValorTotal.ToString("F2") + " Reais, Forma de Pagamento: " + venda.FormaPagamento + ", Parcelas: " + venda.NumeroParcelas);
                 //.ToString("F2"): é uma formatação que converte o valor em uma string formatada com duas casas decimais (formato de ponto flutuante com precisão de duas casas). 
                 //Isso garante que o valor seja exibido com duas casas decimais, por exemplo, "50.00" em vez de "50".
             }
